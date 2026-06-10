@@ -124,12 +124,7 @@ if "last_error_line" not in st.session_state:
     st.session_state.last_error_line = None
 
 if "last_code" not in st.session_state:
-    st.session_state.last_code = """def reverse_string(s):
-    return s[::-1]
-
-s = "Python"
-print(reverse_string(s))
-"""
+    st.session_state.last_code = "Write your Python code here..."
 
 
 # ----------------------------
